@@ -57,25 +57,45 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
 .wrapper {
   text-align: center;
 }
 
 .bg-main {
-  background: url("../images/bahamas.jpg") no-repeat center;
+  background-image: url("../images/Background.gif");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .plane-bg {
-  background: url("../images/BoardingPass.png") no-repeat center;
+  background-image: url("../images/Bpass.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  display: inline-block;
-  padding: 70px;
+  background-position: center;
+  margin: auto;
+  padding: 100px;
+  padding-left: 40px;
+  padding-top: 100px;
 }
 
 .main-text {
-  color: #000;
-  clear: both;
+  color: rgb(0, 0, 0);
+}
+
+.second-text {
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: #ffc72c;
+  padding-right: 60px;
+  margin-bottom: 1.5rem;
+}
+
+.small-text {
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .button-color {
@@ -83,9 +103,57 @@ body {
   color: #000 !important;
   font-weight: bold !important;
   font-size: 20px !important;
+  margin-top: 1rem;
+  border-color: inherit !important;
+  text-decoration: none !important;
 }
 
-.second-text {
-  color: #ffc72c;
-  font-weight: 900;
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .bg-main {
+    background: url("../images/Background.gif") no-repeat center fixed;
+    background-size: cover;
+  }
+  .main-text {
+    font-size: 40px !important;
+    margin-top: 25px;
+  }
+  img {
+    margin-bottom: 1.5rem;
+  }
+
+  .plane-bg {
+    background: url("../images/Bpass.png") no-repeat center;
+    background-size: cover;
+
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+  }
 }
