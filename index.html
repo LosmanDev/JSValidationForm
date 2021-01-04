@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+   
     <title>Win a Free Trip!</title>
   </head>
   <body class="bg-main">
@@ -18,29 +19,44 @@
       <h1 class="display-3 text-center main-text font-weight-bolder mt-3">
         Win A Free Trip To The Bahamas!
         <img
-          class="img-responsive mb-1"
+          class="mb-3"
           src="images/flag.png"
           alt="bahamas flag"
         />
       </h1>
     </div>
     <div class="container text-center">
-      <div class="plane-bg text-left">
-        <h2 class="second-text text-center">How to Win!? Quick and Easy!</h2>
-        <h4 class="small-text mb-3">
-          Must be over the age of 18 and have a valid State license.
-        </h4>
-        <h4 class="small-text mb-3">
-          Fill in your correct contact information when you sign up.
-        </h4>
+      <div class="row">
+        <div class="plane-bg text-left">
+          <header class="text-center">
+            <h2 class="second-text">
+              <i class="fas fa-plane-departure pr-2"></i> Boarding Pass
+            </h2>
+          </header>
+          <div id="myDialog" class="dialog container">
+            <h1 class="font-weight-bold text-center mb-3">Sign Up Form</h1>
+            <input class="form-control mb-3" type="text" placeholder="First Name">
+            <input class="form-control mb-3" type="text" placeholder="Last Name">
+            <input class="form-control mb-3" type="text" placeholder="Email">
+            <input class="form-control mb-3" type="number" placeholder="Phone Number">
+          </div>
+          <main class="main-border">
+            <h4 class="small-text">
+              Must be over the age of 18 and have a valid State license.
+            </h4>
+            <h4 class="small-text">
+              Fill in your correct contact information when you sign up.
+            </h4>
 
-        <h5 class="font-weight-bold">Check email for updates.</h5>
-        <a class="btn btn-primary button-color" href="signup.html"
-          >Sign me up!</a
-        >
+            <h5 class="font-weight-bold">Check email for updates.</h5>
+            <a id="button" class="btn btn-primary button-color">Sign me up!</a>
+            <i class="fas fa-barcode"></i>
+            
+            </main>
+            </div>
+        </div>
       </div>
     </div>
-
     <script type="text/JavaScript" src="js/app.js"></script>
   </body>
 </html>
