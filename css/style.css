@@ -205,11 +205,11 @@ i {
   .dialog {
     background-color: rgba(0, 118, 139, 0.74);
     border-radius: 25px;
-    width: 40% !important;
+    width: 80% !important;
     height: 75%;
     position: absolute;
     top: 13%;
-    left: 30%;
+    left: 10%;
     display: none;
     padding-top: 45px;
   }
@@ -256,11 +256,11 @@ i {
   .dialog {
     background-color: rgba(0, 118, 139, 0.74);
     border-radius: 25px;
-    width: 40% !important;
+    width: 80% !important;
     height: 75%;
     position: absolute;
     top: 13%;
-    left: 30%;
+    left: 10%;
     display: none;
     padding-top: 45px;
   }
@@ -311,11 +311,11 @@ i {
   .dialog {
     background-color: rgba(0, 118, 139, 0.74);
     border-radius: 25px;
-    width: 40% !important;
+    width: 80% !important;
     height: 75%;
     position: absolute;
     top: 13%;
-    left: 30%;
+    left: 10%;
     display: none;
     padding-top: 45px;
   }
@@ -366,11 +366,11 @@ i {
   .dialog {
     background-color: rgba(0, 118, 139, 0.74);
     border-radius: 25px;
-    width: 40% !important;
+    width: 80% !important;
     height: 75%;
     position: absolute;
     top: 13%;
-    left: 30%;
+    left: 10%;
     display: none;
     padding-top: 45px;
   }
@@ -386,5 +386,17 @@ i {
     background-position: center;
     margin: auto;
     padding-bottom: 712px;
+  }
+
+  .dialog {
+    background-color: rgba(0, 118, 139, 0.74);
+    border-radius: 25px;
+    width: 60% !important;
+    height: 75%;
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    display: none;
+    padding-top: 45px;
   }
 }
